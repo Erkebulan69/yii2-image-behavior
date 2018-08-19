@@ -1,0 +1,32 @@
+{
+  "name": "erkebulan69/yii2-image-behavior",
+  "description": "Yii2 Image behavior for uploading and attaching, resizing and stretching images for ActiveRecord",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "image",
+    "behavior",
+    "upload",
+    "stretch",
+    "resize"
+  ],
+  "license": "BSD-3-Clause",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Yerkebulan",
+      "email": "erkebulan69@gmail.com",
+      "homepage": "https://keo.kz",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "yiisoft/yii2-imagine": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "boolean\\image-behavior\\": "./src"
+    }
+  }
+}
